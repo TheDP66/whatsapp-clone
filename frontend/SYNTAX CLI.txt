@@ -1,0 +1,21 @@
+Creating App:
+npx create-react-app whatsapp-clone
+
+Installing Dependencies:
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
+npm i pusher-js
+npm i axios
+npm i -D --save-exact mini-css-extract-plugin@2.4.5
+
+Run App:
+npm start
+
+Setup Firebase:
+firebase login
+firebase init
+* choose hosting: configure files for firebase hosting...
+* use an existing project
+* change "(public)" to "build"
+npm run build
+firebase deploy
